@@ -2,8 +2,10 @@ package main
 
 import (
  "fmt"
+ a "github.com/xytan0056/depwithgen/api"
 )
 
 func main() {
-	fmt.Print("well...")
+	a.API()
+	fmt.Println("well...calling" )
 }
